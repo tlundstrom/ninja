@@ -32,6 +32,10 @@ class Sensei extends Ninja{
         console.log("What one programmer can do in a month. Two programmers can do in two months.");
         return this
     }
+    showStats(){
+        console.log("Name: " + this.name + ", Health: " + this.health + ", Strength: " + this.strength + ", Speed: " + this.speed + ", Wisdom: " + this.wisdom)
+        return this
+    }
 }
 
 const superSensei = new Sensei("Sensei");
